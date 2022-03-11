@@ -93,6 +93,41 @@ namespace SEDC.cSharp.Class02.Homework
                 Console.WriteLine("The average of " + firstNum+", " + secondNum+", " +
                     thirdNum+" and " + fourthNum +" is: " + (firstNum + secondNum + thirdNum + fourthNum) / 4);
             }
+
+            Console.WriteLine("---------------------------");
+
+            // Create new console application “SwapNumbers”.
+
+            // Input 2 numbers from the console and then swap the values of the variables
+            // so that the first variable has the second value and the second variable the first value. Please find example below:
+
+            // Test Data:
+            // Input the First Number: 5
+            // Input the Second Number: 8
+            // Expected Output:
+            // After Swapping:
+            // First Number: 8
+            // Second Number: 5
+
+            Console.WriteLine("Enter the first number");
+            bool isFirstInputNumber = int.TryParse(Console.ReadLine(), out int validatedFirstNumber);
+            Console.WriteLine("Enter the second number");
+            bool isSecondInputNumber = int.TryParse(Console.ReadLine(), out int validatedSecondNumber);
+            if(!isFirstInputNumber || !isSecondInputNumber)
+            {
+                Console.WriteLine("Error!! You must enter a number!");
+                return;
+            }
+            else
+            {
+                int swapNumbers = validatedFirstNumber;
+                validatedFirstNumber = validatedSecondNumber;
+                validatedSecondNumber = swapNumbers;
+                Console.WriteLine("First number: " + validatedFirstNumber + ", " + "Second number: "+ validatedSecondNumber);
+
+            }
+
+
         }
     }
 }
