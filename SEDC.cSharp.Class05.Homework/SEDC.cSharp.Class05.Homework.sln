@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.cSharp.Class05.Homework.Hogwarts", "SEDC.cSharp.Class05.Homework.Hogwarts\SEDC.cSharp.Class05.Homework.Hogwarts.csproj", "{E0791E10-4E55-4B1E-82BE-D850B08CF2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.cSharp.Class05.Homework.GuessTheNumber", "SEDC.cSharp.Class05.Homework.GuessTheNumber\SEDC.cSharp.Class05.Homework.GuessTheNumber.csproj", "{E2B7D39D-196B-410D-9ED1-359C4583B93C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0791E10-4E55-4B1E-82BE-D850B08CF2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0791E10-4E55-4B1E-82BE-D850B08CF2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0791E10-4E55-4B1E-82BE-D850B08CF2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0791E10-4E55-4B1E-82BE-D850B08CF2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B7D39D-196B-410D-9ED1-359C4583B93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B7D39D-196B-410D-9ED1-359C4583B93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B7D39D-196B-410D-9ED1-359C4583B93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B7D39D-196B-410D-9ED1-359C4583B93C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FCED3A7-9A7C-4131-B0D4-0AEF46442C7B}
+	EndGlobalSection
+EndGlobal
