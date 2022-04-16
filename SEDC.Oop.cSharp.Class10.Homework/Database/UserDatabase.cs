@@ -39,7 +39,7 @@ namespace Database
                 {new Subject("Html"), 7 },
                 {new Subject("Css"), 4},
                 {new Subject("JavaScript"),2 }},Password = "StudentPassword2"},
-            new Student{Age = 23,Name = "StudentThree",Subject =new Subject("JavaScript Basic"), Grades = new Dictionary<Subject,int>{
+            new Student{Age = 23,Name = "StudentThree",Subject =new Subject("C Sharp Basic"), Grades = new Dictionary<Subject,int>{
                 {new Subject("Math"),4},
                 {new Subject("English"),4},
                 {new Subject("Html"), 10 },
